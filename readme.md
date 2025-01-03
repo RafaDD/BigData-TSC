@@ -4,7 +4,6 @@
   
 [![DOI](https://zenodo.org/badge/911511968.svg)](https://doi.org/10.5281/zenodo.14591153) ![](https://img.shields.io/github/stars/Kanstarry9T/Cong_ATSC?style=social)
 </div>
-<br>
 
 ![](./figs/result.png)
 
