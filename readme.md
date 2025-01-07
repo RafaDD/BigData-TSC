@@ -2,7 +2,7 @@
   <h2><b>Big-Data Empowered Traffic Signal Control Could Reduce Urban Carbon Emissions</b></h2>
   <h4><b>Kan Wu, Jianrong Ding, Jingli Lin, Guanjie Zheng, Yi Sun, Jie Fang, Tu Xu, Yongdong Zhu, Baojing Gu†</b></h4>
   
-[![DOI](https://zenodo.org/badge/911511968.svg)](https://doi.org/10.5281/zenodo.14591153) ![](https://img.shields.io/github/stars/Kanstarry9T/Cong_ATSC?style=social)
+[![DOI](https://zenodo.org/badge/911511968.svg)](https://doi.org/10.5281/zenodo.14591153) ![](https://img.shields.io/github/stars/RafaDD/BigData-TSC?style=social)
 </div>
 
 ![](./figs/result.png)
