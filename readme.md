@@ -7,6 +7,21 @@
 
 ![](./figs/result.png)
 
+If you find our work useful, please cite our paper.
+
+```
+@article{wu2025big,
+  title={Big-data empowered traffic signal control could reduce urban carbon emission},
+  author={Wu, Kan and Ding, Jianrong and Lin, Jingli and Zheng, Guanjie and Sun, Yi and Fang, Jie and Xu, Tu and Zhu, Yongdong and Gu, Baojing},
+  journal={Nature Communications},
+  volume={16},
+  number={1},
+  pages={2013},
+  year={2025},
+  doi={10.1038/s41467-025-56701-4}
+}
+```
+
 ## Generation
 
 You need to specify the following parameters for generation.
