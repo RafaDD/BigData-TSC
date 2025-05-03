@@ -16,13 +16,13 @@ def get_cate(vsp, v):
     if v == 0:
         idx = 0
     elif v <= 6.9444:
-        vsp_k = np.array([-np.inf, 0, 3, 6, 9, 12])
+        vsp_k = np.array([-np.inf, 0, 3, 6, 9, np.inf])
         idx = np.max(np.where(vsp <= vsp_k)[0]) + 1
     elif v <= 13.889:
-        vsp_k = np.array([-np.inf, 0, 3, 6, 9, 12, 18, 24, 30])
+        vsp_k = np.array([-np.inf, 0, 3, 6, 9, 12, 18, 24, np.inf])
         idx = np.max(np.where(vsp <= vsp_k)[0]) + 7
     else:
-        vsp_k = np.array([-np.inf, 6, 12, 18, 24, 30])
+        vsp_k = np.array([-np.inf, 6, 12, 18, 24, np.inf])
         idx = np.max(np.where(vsp <= vsp_k)[0]) + 16
     return idx, carbon_table[idx]
 
@@ -62,5 +62,5 @@ class CarbonMetric():
             self.vehicle_last_speed[vehicle] = veh_info['speed'][0]
             
         if len(vehicles) == 0:
-            return cate_lst, carbon_lst
+            return cate_lst, 0
         return cate_lst / np.sum(cate_lst), np.mean(carbon_lst)
